@@ -16,7 +16,7 @@ services:
       # More aggressive settings for demo purposes
       AUTOSTOP_TIMEOUT_INIT: "900"
       AUTOSTOP_TIMEOUT_EST: "600"
-      MEMORY: "2G"
+      MEMORY: "12G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"
     volumes:
       # attach the relative directory 'data' to the container's /data path

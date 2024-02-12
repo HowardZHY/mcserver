@@ -79,8 +79,8 @@ misc:
 packet-limiter:
   all-packets:
     action: KICK
-    interval: 7.0
-    max-packet-rate: 500.0
+    interval: 8.0
+    max-packet-rate: 1000.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
     ServerboundPlaceRecipePacket:
@@ -102,7 +102,7 @@ scoreboards:
   save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
 spam-limiter:
-  incoming-packet-threshold: 300
+  incoming-packet-threshold: 500
   recipe-spam-increment: 1
   recipe-spam-limit: 20
   tab-spam-increment: 1
@@ -124,7 +124,7 @@ unsupported-settings:
   allow-permanent-block-break-exploits: false
   allow-piston-duplication: true
   compression-format: ZLIB
-  perform-username-validation: true
+  perform-username-validation: false
 watchdog:
   early-warning-delay: 10000
   early-warning-every: 5000

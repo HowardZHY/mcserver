@@ -16,7 +16,7 @@ services:
       # More aggressive settings for demo purposes
       AUTOSTOP_TIMEOUT_INIT: "900"
       AUTOSTOP_TIMEOUT_EST: "600"
-      MEMORY: "12G"
+      MEMORY: "5G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"
     volumes:
       # attach the relative directory 'data' to the container's /data path
@@ -24,3 +24,4 @@ services:
       - ./plugins.txt:/extras/plugins.txt:ro
       - ./plugins:/plugins
       - ./authlib-injector-1.2.4.jar:/data/authlib-injector.jar:ro
+      - ./config/paper-global.yml:/data/config/paper-global.yml:ro

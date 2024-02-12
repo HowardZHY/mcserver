@@ -92,7 +92,7 @@ Global:
       Format: '&c[&e%1&c]'
     # When this set to true, any teleportation to residence where player dont have tp flag, action will be denyied
     # This can prevent from teleporting players to residence with 3rd party plugins like esentials /tpa
-    BlockAnyTeleportation: true
+    BlockAnyTeleportation: false
     # By setting this to true, regular pvp flag will be acting as overridepvp flag
     # Overridepvp flag tries to ignore any pvp protection in that residence by any other plugin
     OverridePvp: false

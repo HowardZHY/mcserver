@@ -45,7 +45,7 @@ tax: 0.05
 
 #The fake player where the tax money goes to.
 #Set this to "" to disable it (Taxing will still work but not deposit to any account)
-tax-account: ''
+tax-account: ""
 
 #Turn on this option will migrate shop owner to specified account when you set a shop to unlimited.
 #It won't affect exists shops, you will need switch to unlimited again to apply it.
@@ -64,7 +64,7 @@ respect-item-flag: true
 #The currency used to create shops.
 #Set this to "" to use default currency.
 #Only required if you use multiple currencies.
-currency: ''
+currency: ""
 
 logging:
   #Enable logging?
@@ -94,11 +94,11 @@ force-bukkit-chat-handler: false
 disabled-metrics: false
 
 #Should QS be allowed to check for updates on SpigotMC.org?
-updater: true
+updater: false
 
 #Should QS be allowed to automatically report errors to the author?
 #It will also create a paste for data-recovery or debug when the server boots up.
-auto-report-errors: true
+auto-report-errors: false
 
 #Should QS including offline player for the command which needed the specified player?
 #This might improve player experience, but can cause lag for large amount of offline player
@@ -208,7 +208,7 @@ shop-blocks:
 
 shop:
   #The cost to make a shop.
-  cost: 10
+  cost: 5
   #Should the cost go to the tax-account above?
   #Beware: This may cause could not create shop when tax-account could not be deposited
   cost-goto-tax-account: false
@@ -360,7 +360,7 @@ shop:
   #The maximum price for a shop.
   #Set this to -1 to disable it. (Unlimited maximum shop price)
   #This WILL AFFECT existing shops!
-  maximum-price: -1
+  maximum-price: 100000
 
   #Per item price restrictions.
   #Format: <itemname>;<minprice>;<maxprice>
@@ -495,10 +495,10 @@ plugin:
   #If you have PlaceHolderAPI, QuickShop will use it to process all messages.
   PlaceHolderAPI: true
   #If you have LWC/LWCX, QuickShop will check access.
-  LWC: true
+  LWC: false
   #If you use BlocksHub, Should QuickShop use BlockHub to check region access for players?
   BlockHub:
-    enable: true
+    enable: false
     #Should BlocksHub only be used for permission checks?
     only: false
   #If you have WorldEdit, QuickShop will try migrating shops in EditSession. [BETA]
@@ -711,7 +711,7 @@ integration:
   residence:
     enable: false
     #Should we prevent the creation of a shop or trade with a shop outside Residence's area?
-    whitelist-mode: true
+    whitelist-mode: false
     #Which checks does a player need to pass to create a shop?
     #You can use multiple checks at the same time.
     #Priority: UP > DOWN
@@ -743,7 +743,7 @@ integration:
         open: false
         normal: true
         wilderness: false
-        peaceful: true
+        peaceful: false
         permanent: false
         safezone: false
         own: false

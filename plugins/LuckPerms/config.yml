@@ -1,31 +1,3 @@
-####################################################################################################
-# +----------------------------------------------------------------------------------------------+ #
-# |                                   __         __   ___  __         __                         | #
-# |                        |    |  | /  ` |__/  |__) |__  |__)  |\/| /__`                        | #
-# |                        |___ \__/ \__, |  \  |    |___ |  \  |  | .__/                        | #
-# |                                                                                              | #
-# |                                     https://luckperms.net                                    | #
-# |                                                                                              | #
-# |  WIKI:        https://luckperms.net/wiki                                                     | #
-# |  DISCORD:     https://discord.gg/luckperms                                                   | #
-# |  BUG REPORTS: https://github.com/LuckPerms/LuckPerms/issues                                  | #
-# |                                                                                              | #
-# |  Each option in this file is documented and explained here:                                  | #
-# |   ==>  https://luckperms.net/wiki/Configuration                                              | #
-# |                                                                                              | #
-# |  New options are not added to this file automatically. Default values are used if an         | #
-# |  option cannot be found. The latest config versions can be obtained at the link above.       | #
-# +----------------------------------------------------------------------------------------------+ #
-####################################################################################################
-
-# +----------------------------------------------------------------------------------------------+ #
-# |                                                                                              | #
-# |                                      ESSENTIAL SETTINGS                                      | #
-# |                                                                                              | #
-# |                   Important settings that control how LuckPerms functions.                   | #
-# |                                                                                              | #
-# +----------------------------------------------------------------------------------------------+ #
-
 # The name of the server, used for server specific permissions.
 #
 # - When set to "global" this setting is effectively ignored.
@@ -42,9 +14,6 @@ server: global
 # - When this is set to 'true', the server facility is used. This may use a number of methods,
 #   including checking the servers local cache, or making a request to the Mojang API.
 use-server-uuid-cache: false
-
-
-
 
 # +----------------------------------------------------------------------------------------------+ #
 # |                                                                                              | #

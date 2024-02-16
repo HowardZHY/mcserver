@@ -28,7 +28,7 @@ Groups:
            # The lowest altitude this group is allowed to protect.
            MinHeight: -64
            # The highest altitude this group is allowed to protect.
-           MaxHeight: 320
+           MaxHeight: 384
             # The maximum amount of subzones can current area have.
            MaxSubzonesInArea: 6
             # The maximum recursive depth that subzones can go.

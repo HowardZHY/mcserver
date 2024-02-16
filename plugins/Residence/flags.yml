@@ -13,6 +13,7 @@ Global:
       creeper: true
       tnt: true
       pvp: true
+      trade: true
   # This gives permission to change certain flags to all groups, unless specifically denied to the group.
   FlagPermission:
     # Applies to: Player
@@ -190,7 +191,7 @@ Global:
     # Applies to: Both
     pressure: true
     # Applies to: Residence
-    pvp: false
+    pvp: true
     # Applies to: Residence
     rain: true
     # Applies to: Residence
@@ -228,9 +229,9 @@ Global:
     # Applies to: Both
     trade: true
     # Applies to: Residence
-    trample: true
+    trample: false
     # Applies to: Both
-    use: false
+    use: true
     # Applies to: Both
     vehicledestroy: false
     # Applies to: Residence
@@ -381,22 +382,22 @@ Global:
   ResidenceDefault:
     build: false
     destroy: false
-    use: false
+    use: true
     container: false
-    pvp: false
+    pvp: true
     tnt: false
     creeper: false
     ignite: false
     firespread: false
     vehicledestroy: false
     animalkilling: false
-    hook: false
     shear: false
     leash: false
     pistonprotection: true
-    tp: false
     explode: false
-    harvest: false
+    trade: true
+    move: true
+    trample: false
   # These are default flags applied to the residence creator of any group.
   CreatorDefault:
     build: true
@@ -412,6 +413,7 @@ Global:
     shear: true
     leash: true
     harvest: true
+    teleport: true
   # These are default flags applied to the residence renter of any group.
   RentedDefault:
     container: true

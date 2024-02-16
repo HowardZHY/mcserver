@@ -77,7 +77,7 @@ Groups:
        # Options relating to the Lease system.
        Lease:
           # The maximum number of days to allow leases.
-          MaxDays: 16
+          MaxDays: 64
           # The number of days to add to the lease following a '/res lease renew' command.
           RenewIncrement: 14
        #Options related to the rent system
@@ -134,7 +134,7 @@ Groups:
     NextGroup: #group name, player should have residence.group.nextgroup permission node to have access to this residence group
        Residence:
            CanCreate: true
-           MaxResidences: 4
+           MaxResidences: 6
            MaxAreasPerResidence: 2
            MaxEastWest: 20
            MaxNorthSouth: 20

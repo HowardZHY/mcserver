@@ -10,21 +10,21 @@ Groups:
            # Determins if this group can create residences or not.  This option can be overriden with the permissions node 'residence.create'
            CanCreate: true
            # The maximum number of Residences a player can have.
-           MaxResidences: 200
+           MaxResidences: 6
            # The maximum number of physical areas a residence can have.
            MaxAreasPerResidence: 200
            # The maximum number of blocks a Residence can be, East to West (X).
-           MaxEastWest: 256
+           MaxEastWest: 64
            # (Optional) The minimum number of blocks a Residence can be, East to West (X).
-           MinEastWest: 3
+           MinEastWest: 1
            # The maximum number of blocks a Residence can be, North to South (Z).
-           MaxNorthSouth: 256
+           MaxNorthSouth: 64
            # (Optional) The minimum number of blocks a Residence can be, North to South (Z).
-           MinNorthSouth: 3
+           MinNorthSouth: 1
            # The maximum number of blocks a Residence can be, High to Low (Y).
            MaxUpDown: 320
            # (Optional) The minimum number of blocks a Residence can be, High to Low (Y).
-           MinUpDown: 3
+           MinUpDown: 1
            # The lowest altitude this group is allowed to protect.
            MinHeight: -64
            # The highest altitude this group is allowed to protect.
@@ -93,7 +93,7 @@ Groups:
           # Whether or not players in this group can buy other Residences that are for sale.
           CanBuy: true
           # Whether or not players in this group can sell their Residences.
-          CanSell: false
+          CanSell: true
           # Whether or not to ignore the Residence size/count limits when buying a residence.
           IgnoreLimits: false
           # The cost, per block, of making a new Residence or adding a area to it.

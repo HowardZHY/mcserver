@@ -21,7 +21,7 @@ Global:
     # Applies to: Both
     anchor: true
     # Applies to: Both
-    animalkilling: false
+    animalkilling: true
     # Applies to: Residence
     animals: true
     # Applies to: Both
@@ -39,7 +39,7 @@ Global:
     # Applies to: Both
     brew: true
     # Applies to: Both
-    build: false
+    build: true
     # Applies to: Residence
     burn: true
     # Applies to: Both
@@ -55,11 +55,11 @@ Global:
     # Applies to: Residence
     cmonsters: true
     # Applies to: Both
-    command: false
+    command: true
     # Applies to: Both
     commandblock: false
     # Applies to: Both
-    container: false
+    container: true
     # Applies to: Residence
     coords: true
     # Applies to: Residence
@@ -67,13 +67,13 @@ Global:
     # Applies to: Residence
     creeper: false
     # Applies to: Residence
-    damage: false
+    damage: true
     # Applies to: Residence
     day: true
     # Applies to: Residence
     decay: true
     # Applies to: Both
-    destroy: false
+    destroy: true
     # Applies to: Both
     diode: true
     # Applies to: Both
@@ -195,7 +195,7 @@ Global:
     # Applies to: Residence
     rain: true
     # Applies to: Residence
-    respawn: false
+    respawn: true
     # Applies to: Both
     riding: true
     # Applies to: Residence
@@ -229,11 +229,11 @@ Global:
     # Applies to: Both
     trade: true
     # Applies to: Residence
-    trample: false
+    trample: true
     # Applies to: Both
     use: true
     # Applies to: Both
-    vehicledestroy: false
+    vehicledestroy: true
     # Applies to: Residence
     waterflow: true
     # Applies to: Residence
@@ -253,9 +253,9 @@ Global:
     # Applies to: Both
     elytra: false
     # Applies to: Both
-    harvest: false
+    harvest: true
     # Applies to: Residence
-    safezone: false
+    safezone: true
   # This sets GUI items to represent each flag, if not given, then gray wool will be used
   FlagGui:
     admin: BEDROCK

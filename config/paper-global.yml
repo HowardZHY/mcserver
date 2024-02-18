@@ -120,8 +120,8 @@ timings:
   verbose: true
 unsupported-settings:
   allow-grindstone-overstacking: false
-  allow-headless-pistons: false
-  allow-permanent-block-break-exploits: false
+  allow-headless-pistons: true
+  allow-permanent-block-break-exploits: true
   allow-piston-duplication: true
   compression-format: ZLIB
   perform-username-validation: false

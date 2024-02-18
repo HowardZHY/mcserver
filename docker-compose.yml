@@ -18,6 +18,7 @@ services:
       AUTOSTOP_TIMEOUT_EST: "600"
       MEMORY: "5G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"
+      ENFORCE_SECURE_PROFILE: "FALSE"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data

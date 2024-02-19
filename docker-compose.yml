@@ -16,7 +16,7 @@ services:
       # More aggressive settings for demo purposes
       AUTOSTOP_TIMEOUT_INIT: "300"
       AUTOSTOP_TIMEOUT_EST: "300"
-      MEMORY: "5G"
+      MEMORY: "2G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"
       ENFORCE_SECURE_PROFILE: "FALSE"
     volumes:

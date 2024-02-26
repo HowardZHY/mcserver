@@ -14,9 +14,7 @@ services:
       PLUGINS_FILE: "/extras/plugins.txt"
       ENABLE_AUTOSTOP: "TRUE"
       # More aggressive settings for demo purposes
-      AUTOSTOP_TIMEOUT_INIT: "300"
-      AUTOSTOP_TIMEOUT_EST: "300"
-      MEMORY: "2G"
+      MEMORY: "5G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"
       ENFORCE_SECURE_PROFILE: "FALSE"
     volumes:

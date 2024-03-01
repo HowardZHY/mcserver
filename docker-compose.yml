@@ -12,7 +12,6 @@ services:
       TYPE: "PAPER"
       VERSION: "1.20.1"
       PLUGINS_FILE: "/extras/plugins.txt"
-      ENABLE_AUTOSTOP: "TRUE"
       # More aggressive settings for demo purposes
       MEMORY: "5G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil"

@@ -223,7 +223,7 @@ Global:
     # Applies to: Residence
     title: true
     # Applies to: Residence
-    tnt: false
+    tnt: true
     # Applies to: Both
     tp: true
     # Applies to: Both

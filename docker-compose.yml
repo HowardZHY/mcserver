@@ -6,7 +6,7 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - "41154:25565"
+      - "51223:25565"
     environment:
       EULA: "TRUE"
       TYPE: "SPIGOT"

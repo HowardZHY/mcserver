@@ -13,7 +13,7 @@ services:
       VERSION: "1.21"
       PLUGINS_FILE: "/extras/plugins.txt"
       # More aggressive settings for demo purposes
-      MEMORY: "7G"
+      MEMORY: "6G"
       JVM_OPTS: "-javaagent:/data/authlib-injector.jar=https://mcskin.com.cn/api/yggdrasil -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=32M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1"
       ENFORCE_SECURE_PROFILE: "FALSE"
       REMOVE_OLD_MODS: "TRUE"
